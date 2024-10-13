@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Input Field for a -->
+    <EditText
+        android:id="@+id/editTextA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введіть масу вугілля: "
+        android:inputType="numberDecimal" />
+
+    <!-- Input Field for b -->
+    <EditText
+        android:id="@+id/editTextB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введіть масу мазуту: "
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp" />
+
+    <!-- Input Field for c -->
+    <EditText
+        android:id="@+id/editTextC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введіть масу природного газу: "
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp" />
+
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_marginTop="24dp" />
+
+    <!-- Result Display -->
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показник емісії твердих частинок при спалюванні вугілля становитиме: "
+        android:textSize="18sp"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/textViewResulte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Валовий викид при спалюванні вугілля становитиме: "
+        android:textSize="18sp"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/textViewResult1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показник емісії твердих частинок при спалюванні мазуту становитиме: "
+        android:textSize="18sp"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/textViewResulte1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Валовий викид при спалюванні мазуту становитиме: "
+        android:textSize="18sp"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/textViewResult2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показник емісії твердих частинок при спалюванні природного газу становитиме: "
+        android:textSize="18sp"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/textViewResulte2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Валовий викид при спалюванні природного газу становитиме: "
+        android:textSize="18sp"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
